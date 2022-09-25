@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./assets/CSS/style.css" />
+  <link rel="stylesheet" href="./assets/CSS/style.css" />
   <title>Join the Band!</title>
 </head>
 
@@ -13,9 +13,9 @@
     <h1>Join the Band!!</h1>
     <p>So it can exist</p>
     <nav>
-      <a href="">Upcoming Albums</a>
+      <a href="./members-needed.html">Upcoming Albums</a>
       <a href="">Calendar</a>
-      <a href="">Contact Us</a>
+      <a href="#contact-form">Contact Us</a>
     </nav>
   </header>
   <main>
@@ -25,11 +25,22 @@
         band, we can make some albums. We might also be able to books some gigs for the calendar or hang out. If you
         don't play an instrument, or know any thing about music, that's OKAY. We'd love for you to design us an album
         cover, or book us gigs, or hype us up. We're here to serve really. We just wanna be there for you. But we need
-        YOU to make it happen.<br><br>Sign up for the band below</p>
+        YOU to make it happen.Sign up for the band below.</p>
+      <p class="center">Sign up for the band below.</p>
     </section>
+    <picture><img src="./assets/images/we-want-you.png" alt="Man with colorful hat pointing at you">
+    </picture>
     <section>
-      <h2>The Contact Form</h2>
-      <!-- Insert Contact form here -->
+      <h2 class="center">The Contact Form</h2>
+      <form id="contact-form">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname"><br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="text" name="email"><br><br>
+        <input type="submit">
+      </form>
     </section>
   </main>
 

@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: rgb(118, 15, 92);
+}
+header {
+width: max;
+height: 100px;
+background-color: rgb(15, 13, 116);
+color: blue;
+position: top;
+text-align: center;
+}
+picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.center {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
